@@ -1,0 +1,1 @@
+import{j as y,T as d}from"./index-DSO9TgYq.js";const m=({color:p="black",variant:t="body1",value:o,renderFunction:s,...a})=>{const r=o&&s?s(o):o;return y.jsx(d,{color:p,variant:t,...a,children:r??"--"})};export{m as C};

@@ -1,0 +1,1 @@
+import{j as t,ca as s}from"./index-DSO9TgYq.js";import{B as l}from"./Box-D442Dag1.js";function p({children:e,value:r,index:a,...o}){return t.jsx("div",{role:"tabpanel",hidden:r!==a,id:`${s("tabpanel")}-${a}`,"aria-labelledby":`product-details-tab-${a}`,...o,children:r===a&&t.jsx(l,{children:e})})}export{p as T};

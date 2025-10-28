@@ -1,0 +1,1 @@
+import{bt as E,r as s,x as a}from"./index-DSO9TgYq.js";const l=n=>{const{references:o}=E(),t=s.useMemo(()=>o==null?void 0:o.find(e=>e.slug===a.EMPLOYEE_TYPE),[o]),r=s.useMemo(()=>{var e;return(e=t==null?void 0:t.content)==null?void 0:e.find(u=>u.value===n)},[t]);return{employeeTypeList:t,employeeType:r}};export{l as u};

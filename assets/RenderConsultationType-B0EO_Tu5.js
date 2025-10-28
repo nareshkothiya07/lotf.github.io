@@ -1,0 +1,1 @@
+import{t as r,x as u,r as i}from"./index-DSO9TgYq.js";import{u as c}from"./useStatusList-Dbp-x5Xm.js";const E=({type:o})=>{const{lang:e}=r(),{statusList:t}=c(u.CONSULTATION_TYPE),s=i.useMemo(()=>{var n;return(n=t==null?void 0:t.content)==null?void 0:n.find(a=>a.value===o)},[o,t]);return s==null?void 0:s.label[e]},R=E;export{R};

@@ -1,0 +1,1 @@
+import{bt as o,r as n,x as a}from"./index-DSO9TgYq.js";const i=[{id:"YES",en:"Yes",ar:"نعم"},{id:"NO",en:"No",ar:"لا"}],r=()=>{const{references:t}=o();return n.useMemo(()=>t==null?void 0:t.find(s=>s.slug===a.SENIORITY_LEVEL),[t])},g=()=>{const{references:t}=o();return n.useMemo(()=>t==null?void 0:t.find(s=>s.slug===a.LANGUAGES),[t])};export{g as a,i as t,r as u};

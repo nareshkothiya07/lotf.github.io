@@ -1,0 +1,1 @@
+import{t as a,r as c}from"./index-DSO9TgYq.js";import{u as m}from"./useGenderList-C-bU5Ya0.js";const u=({gender:o})=>{const{lang:r}=a(),e=m(),n=c.useMemo(()=>{var t;return(t=e==null?void 0:e.content)==null?void 0:t.find(s=>s.value===o)},[o,e]);return n==null?void 0:n.label[r]},i=u;export{i as R};

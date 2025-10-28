@@ -1,0 +1,1 @@
+const n=(c,{isLoading:l,responseMeta:o,setPagination:r})=>{const t=c.currentTarget;if(t.scrollHeight-t.scrollTop<=t.clientHeight+1&&!l){const e=Number(o.page),s=Number(o.pages);e<s&&r(a=>({...a,page:e+1}))}},i=n;export{i as h};

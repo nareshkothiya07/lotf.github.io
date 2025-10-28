@@ -1,0 +1,1 @@
+import{bt as c,r as n,w as r}from"./index-DSO9TgYq.js";const i=o=>{const{references:e}=c(),t=n.useMemo(()=>e==null?void 0:e.find(s=>s.slug===o),[o]),a=n.useMemo(()=>{var s;return(s=t==null?void 0:t.content)==null?void 0:s.filter(u=>u.value===r.Active||u.value===r.InActive)},[t]);return{statusList:t,defaultList:a}};export{i as u};
