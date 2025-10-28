@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lotf Account Deletion Request">
+    <link rel="icon" href="/favicon.png" />
+    <title>Account Deletion - Lotf</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo-container {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .logo {
+            max-width: 200px;
+            height: auto;
+        }
+
+        .language-tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .language-tab {
+            padding: 10px 30px;
+            cursor: pointer;
+            border: none;
+            background: none;
+            font-size: 16px;
+            color: #666;
+            transition: all 0.3s;
+        }
+
+        .language-tab.active {
+            color: #6366F1;
+            border-bottom: 2px solid #6366F1;
+            margin-bottom: -2px;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        h1 {
+            color: #6366F1;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #6366F1;
+            font-size: 1.3rem;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #555;
+            margin-bottom: 15px;
+            font-size: 1rem;
+        }
+
+        .intro {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .alert {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .contact-box {
+            background-color: #E1DFFC;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .contact-box strong {
+            color: #333;
+        }
+
+        .contact-box a {
+            color: #6366F1;
+            text-decoration: none;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            color: #666;
+        }
+
+        .rtl {
+            direction: rtl;
+            text-align: right;
+        }
+
+        .rtl h1, .rtl h2 {
+            text-align: right;
+        }
+
+        .rtl ul {
+            margin-right: 20px;
+            margin-left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="/logo.png" alt="Lotf Logo" class="logo" id="logo">
+        </div>
+
+        <div class="language-tabs">
+            <button class="language-tab active" onclick="switchLanguage('en')">English</button>
+            <button class="language-tab" onclick="switchLanguage('ar')">العربية</button>
+        </div>
+
+        <!-- English Content -->
+        <div id="en-content" class="tab-content active">
+            <h1>Account Deletion Request</h1>
+
+            <p class="intro">
+                If you wish to delete your account and associated data from the Lotf platform, please follow the instructions below.
+            </p>
+
+            <div class="alert">
+                <p><strong>⚠️ Important:</strong> Account deletion is permanent and cannot be undone. Once your account is deleted, 
+                you will not be able to recover your data or access any past medical records.</p>
+            </div>
+
+            <h2>How to Request Account Deletion</h2>
+            <p>To request the deletion of your account and associated data, please contact us:</p>
+
+            <div class="contact-box">
+                <p><strong>Email:</strong> <a href="mailto:support@lotf.sa">support@lotf.sa</a></p>
+                <p><strong>Subject:</strong> Account Deletion Request</p>
+                <p><strong>Required Information:</strong></p>
+                <ul>
+                    <li>Your registered phone number</li>
+                    <li>Your full name</li>
+                    <li>Reason for deletion (optional)</li>
+                </ul>
+            </div>
+
+            <h2>What Data Will Be Deleted</h2>
+            <p>When you request account deletion, the following data will be permanently removed from our systems:</p>
+            <ul>
+                <li><strong>Personal Information:</strong> Name, phone number, date of birth, gender, national ID, nationality, height, weight, marital status</li>
+                <li><strong>Account Details:</strong> Password, profile photo, email address</li>
+                <li><strong>Medical Records:</strong> Medical history, prescriptions, medical reports, lab test results</li>
+                <li><strong>Consultation History:</strong> Past and scheduled consultations, doctor appointments</li>
+                <li><strong>Financial Data:</strong> Wallet balance, transaction history</li>
+                <li><strong>Device Information:</strong> Device tokens and notification preferences</li>
+            </ul>
+
+            <h2>Processing Time</h2>
+            <p>Your account deletion request will be processed within <strong>30 days</strong> of receiving your request. 
+            You will receive a confirmation email once your account and data have been permanently deleted.</p>
+
+            <h2>Data Retention Policy</h2>
+            <p>Please note that some data may be retained for legal and regulatory compliance purposes as required by 
+            Saudi Arabian healthcare laws, including:</p>
+            <ul>
+                <li>Medical records required by law to be retained for specific periods</li>
+                <li>Financial transaction records for tax and audit purposes</li>
+                <li>Records necessary for ongoing legal proceedings or disputes</li>
+            </ul>
+
+            <div class="footer">
+                <p>© All rights reserved</p>
+            </div>
+        </div>
+
+        <!-- Arabic Content -->
+        <div id="ar-content" class="tab-content rtl">
+            <h1>طلب حذف الحساب</h1>
+
+            <p class="intro">
+                إذا كنت ترغب في حذف حسابك والبيانات المرتبطة به من منصة لطف، يرجى اتباع التعليمات أدناه.
+            </p>
+
+            <div class="alert">
+                <p><strong>⚠️ هام:</strong> حذف الحساب نهائي ولا يمكن التراجع عنه. بمجرد حذف حسابك، لن تتمكن من استعادة 
+                بياناتك أو الوصول إلى أي سجلات طبية سابقة.</p>
+            </div>
+
+            <h2>كيفية طلب حذف الحساب</h2>
+            <p>لطلب حذف حسابك والبيانات المرتبطة به، يرجى الاتصال بنا:</p>
+
+            <div class="contact-box">
+                <p><strong>البريد الإلكتروني:</strong> <a href="mailto:support@lotf.sa">support@lotf.sa</a></p>
+                <p><strong>عنوان الرسالة:</strong> طلب حذف الحساب</p>
+                <p><strong>المعلومات المطلوبة:</strong></p>
+                <ul>
+                    <li>رقم الهاتف المسجل</li>
+                    <li>الاسم الكامل</li>
+                    <li>سبب الحذف (اختياري)</li>
+                </ul>
+            </div>
+
+            <h2>ما هي البيانات التي سيتم حذفها</h2>
+            <p>عند طلب حذف الحساب، سيتم حذف البيانات التالية نهائياً من أنظمتنا:</p>
+            <ul>
+                <li><strong>المعلومات الشخصية:</strong> الاسم، رقم الهاتف، تاريخ الميلاد، الجنس، رقم الهوية، الجنسية، الطول، الوزن، الحالة الاجتماعية</li>
+                <li><strong>تفاصيل الحساب:</strong> كلمة المرور، الصورة الشخصية، عنوان البريد الإلكتروني</li>
+                <li><strong>السجلات الطبية:</strong> التاريخ الطبي، الوصفات الطبية، التقارير الطبية، نتائج الفحوصات</li>
+                <li><strong>سجل الاستشارات:</strong> الاستشارات السابقة والمجدولة، مواعيد الأطباء</li>
+                <li><strong>البيانات المالية:</strong> رصيد المحفظة، سجل المعاملات</li>
+                <li><strong>معلومات الجهاز:</strong> رموز الجهاز وتفضيلات الإشعارات</li>
+            </ul>
+
+            <h2>مدة المعالجة</h2>
+            <p>سيتم معالجة طلب حذف حسابك في غضون <strong>30 يوماً</strong> من استلام طلبك. ستتلقى رسالة تأكيد 
+            بالبريد الإلكتروني بمجرد حذف حسابك وبياناتك نهائياً.</p>
+
+            <h2>سياسة الاحتفاظ بالبيانات</h2>
+            <p>يرجى ملاحظة أنه قد يتم الاحتفاظ ببعض البيانات لأغراض الامتثال القانوني والتنظيمي كما هو مطلوب 
+            بموجب قوانين الرعاية الصحية السعودية، بما في ذلك:</p>
+            <ul>
+                <li>السجلات الطبية المطلوب الاحتفاظ بها قانوناً لفترات محددة</li>
+                <li>سجلات المعاملات المالية لأغراض الضرائب والتدقيق</li>
+                <li>السجلات الضرورية للإجراءات القانونية الجارية أو النزاعات</li>
+            </ul>
+
+            <div class="footer">
+                <p>© جميع الحقوق محفوظة</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function switchLanguage(lang) {
+            // Update tabs
+            const tabs = document.querySelectorAll('.language-tab');
+            tabs.forEach(tab => tab.classList.remove('active'));
+            event.target.classList.add('active');
+
+            // Update content
+            document.getElementById('en-content').classList.remove('active');
+            document.getElementById('ar-content').classList.remove('active');
+            document.getElementById(lang + '-content').classList.add('active');
+
+            // Update logo
+            const logo = document.getElementById('logo');
+            if (lang === 'ar') {
+                logo.src = '/logo_ar.svg';
+            } else {
+                logo.src = '/logo.png';
+            }
+        }
+    </script>
+</body>
+</html>
+
